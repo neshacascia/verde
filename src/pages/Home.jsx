@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import Hero from '../components/Hero';
 import Item from '../components/Item';
 import Highlight from '../components/Highlight';
+import Event from '../components/Event';
 
 import { itemArr } from '../../data';
 import { menuHighlightsArr } from '../../data';
+import { eventsArr } from '../../data';
 
 import divide from '../../public/assets/patterns/pattern-divide.svg';
 
@@ -13,6 +16,8 @@ const highlights = menuHighlightsArr.map(highlight => (
 ));
 
 export default function Home() {
+  const [eventsPosition, setEventsPosition] = useState(0);
+
   return (
     <section className="bg-[#fcfbfb] h-auto">
       <Hero />
@@ -34,6 +39,13 @@ export default function Home() {
         </div>
 
         <section>{highlights}</section>
+      </section>
+
+      <section className="bg-[#fcfbfb]">
+        <Event
+          event={eventsArr[eventsPosition]}
+          setEventsPosition={setEventsPosition}
+        />
       </section>
     </section>
   );
