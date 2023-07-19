@@ -2,11 +2,13 @@ import divide from '../../public/assets/patterns/pattern-divide.svg';
 
 export default function Item({ item }) {
   return (
-    <div className="text-red w-[327px] h-[662px] ">
-      <img src={item.image} />
+    <div className="text-darkBlue text-center w-[327px] h-[662px] flex flex-col items-center -mt-16">
+      <img src={item.image} className="mb-12" />
       <img src={divide} />
-      <h2>{item.heading}</h2>
-      <p>{item.text}</p>
+      <h2 className="text-4xl font-bold tracking-wide mt-9 mb-3">
+        {item.heading}
+      </h2>
+      <p className="leading-7">{item.text}</p>
     </div>
   );
 }
