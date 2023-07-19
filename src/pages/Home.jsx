@@ -14,7 +14,7 @@ const highlights = menuHighlightsArr.map(highlight => (
 
 export default function Home() {
   return (
-    <section className="bg-[#fcfbfb] h-screen">
+    <section className="bg-[#fcfbfb] h-auto">
       <Hero />
 
       <section className="bg-[#fcfbfb] w-screen h-auto flex flex-col items-center gap-[160px] pb-[120px]">
@@ -22,7 +22,7 @@ export default function Home() {
       </section>
 
       <section className="text-white bg-[#111] w-screen h-auto flex flex-col items-center pt-16">
-        <div className="text-center w-[327px] flex flex-col items-center">
+        <div className="text-center w-[327px]">
           <img src={divide} />
           <h2 className="text-[32px] font-semibold tracking-wide mt-9 mb-3">
             A few highlights from our menu
@@ -33,7 +33,7 @@ export default function Home() {
           </p>
         </div>
 
-        {highlights}
+        <section>{highlights}</section>
       </section>
     </section>
   );
