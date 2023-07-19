@@ -1,11 +1,16 @@
 import Hero from '../components/Hero';
 import Item from '../components/Item';
+import Highlight from '../components/Highlight';
 
 import { itemArr } from '../../data';
+import { menuHighlightsArr } from '../../data';
 
 import divide from '../../public/assets/patterns/pattern-divide.svg';
 
 const items = itemArr.map(item => <Item item={item} key={item.id} />);
+const highlights = menuHighlightsArr.map(highlight => (
+  <Highlight highlight={highlight} key={highlight.id} />
+));
 
 export default function Home() {
   return (
@@ -27,6 +32,8 @@ export default function Home() {
             of our diner’s favourites. Our menu is revamped every season.
           </p>
         </div>
+
+        {highlights}
       </section>
     </section>
   );
