@@ -1,7 +1,6 @@
 import divide from '../../public/assets/patterns/pattern-divide.svg';
 
 export default function Item({ item }) {
-  console.log(item);
   return (
     <div className="text-red w-[327px] h-[662px] ">
       <img src={item.image} />
