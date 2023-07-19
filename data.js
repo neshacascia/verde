@@ -20,6 +20,7 @@ export const menuHighlightsArr = [
     name: 'Seared Salmon Fillet',
     description:
       'Our locally sourced salmon served with a refreshing buckwheat summer salad.',
+    line: './public/assets/patterns/line.svg',
   },
   {
     id: 1,
@@ -27,6 +28,7 @@ export const menuHighlightsArr = [
     name: 'Rosemary Filet Mignon',
     description:
       'Our prime beef served to your taste with a delicious choice of seasonal sides.',
+    line: './public/assets/patterns/line.svg',
   },
   {
     id: 2,
