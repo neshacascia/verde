@@ -22,7 +22,7 @@ export default function Home() {
       </section>
 
       <section className="text-white bg-[#111] w-screen h-auto flex flex-col items-center pt-16">
-        <div className="text-center w-[327px]">
+        <div className="text-center w-[327px] flex flex-col items-center">
           <img src={divide} />
           <h2 className="text-[32px] font-semibold tracking-wide mt-9 mb-3">
             A few highlights from our menu
