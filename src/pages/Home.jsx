@@ -10,7 +10,7 @@ export default function Home() {
     <section className="bg-[#fcfbfb] h-screen">
       <Hero />
 
-      <section className="bg-[#fcfbfb] w-screen h-auto flex flex-col items-center gap-[160px]">
+      <section className="bg-[#fcfbfb] w-screen h-auto flex flex-col items-center gap-[160px] pb-[120px]">
         {items}
       </section>
     </section>
