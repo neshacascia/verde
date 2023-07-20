@@ -45,6 +45,7 @@ export default function Home() {
       <section className="bg-[#fcfbfb] w-screen h-auto flex flex-col items-center mt-20 pb-32">
         <Event
           event={eventsArr[eventsPosition]}
+          eventsPosition={eventsPosition}
           setEventsPosition={setEventsPosition}
         />
         <button className="text-white bg-[#111] text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7">
