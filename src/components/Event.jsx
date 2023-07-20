@@ -1,7 +1,7 @@
 export default function Event({ event, eventsPosition, setEventsPosition }) {
   return (
     <div className="text-center w-[327px]">
-      <img src={event.image} />
+      <img src={event.image} className="shadow-2xl" />
 
       <div className="flex flex-col gap-4 mt-14">
         <div className="flex flex-col items-center">
