@@ -9,6 +9,7 @@ import { menuHighlightsArr } from '../../data';
 import { eventsArr } from '../../data';
 
 import divide from '../../public/assets/patterns/pattern-divide.svg';
+import Footer from '../components/Footer';
 
 const items = itemArr.map(item => <Item item={item} key={item.id} />);
 const highlights = menuHighlightsArr.map(highlight => (
@@ -59,6 +60,8 @@ export default function Home() {
           Book a table
         </button>
       </section>
+
+      <Footer />
     </section>
   );
 }
