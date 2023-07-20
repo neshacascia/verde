@@ -14,7 +14,7 @@ export default function Event({ event, eventsPosition, setEventsPosition }) {
             Family Gathering
           </button>
           {eventsPosition === 0 && (
-            <hr className="w-14 border-[#9E7F66] border-[1px]"></hr>
+            <hr className="w-14 border-beaver border-[1px]"></hr>
           )}
         </div>
 
@@ -28,7 +28,7 @@ export default function Event({ event, eventsPosition, setEventsPosition }) {
             Special Events
           </button>
           {eventsPosition === 1 && (
-            <hr className="w-14 border-[#9E7F66] border-[1px]"></hr>
+            <hr className="w-14 border-beaver border-[1px]"></hr>
           )}
         </div>
 
@@ -42,15 +42,17 @@ export default function Event({ event, eventsPosition, setEventsPosition }) {
             Social Events
           </button>
           {eventsPosition === 2 && (
-            <hr className="w-14 border-[#9E7F66] border-[1px]"></hr>
+            <hr className="w-14 border-beaver border-[1px]"></hr>
           )}
         </div>
       </div>
 
-      <h2 className="text-darkBlue text-[32px] font-semibold tracking-wide mt-7 mb-3">
+      <h2 className="text-ebonyClay text-[32px] font-semibold tracking-wide mt-7 mb-3">
         {event.heading}
       </h2>
-      <p className="font-light leading-[26px]">{event.description}</p>
+      <p className="text-ebonyClay font-light leading-[26px]">
+        {event.description}
+      </p>
     </div>
   );
 }

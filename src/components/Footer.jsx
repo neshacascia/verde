@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-white bg-[#111] h-auto flex flex-col items-center py-20 px-6">
+    <footer className="text-white bg-codGray h-auto flex flex-col items-center py-20 px-6">
       <span className="text-5xl font-medium tracking-wide mb-10">dine</span>
 
       <div className="text-sm font-light uppercase text-center tracking-[2px] leading-[28px] mb-8">

@@ -27,7 +27,7 @@ export default function Home() {
         {items}
       </section>
 
-      <section className="text-white bg-[#111] w-screen h-auto flex flex-col items-center pt-16">
+      <section className="text-white bg-codGray w-screen h-auto flex flex-col items-center pt-16">
         <div className="text-center w-[327px] flex flex-col items-center">
           <img src={divide} />
           <h2 className="text-[32px] font-semibold tracking-wide mt-9 mb-3">
@@ -48,7 +48,7 @@ export default function Home() {
           eventsPosition={eventsPosition}
           setEventsPosition={setEventsPosition}
         />
-        <button className="text-white bg-[#111] text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-black hover:bg-white">
+        <button className="text-white bg-codGray text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-codGray hover:bg-white">
           Book a table
         </button>
       </section>
@@ -57,7 +57,7 @@ export default function Home() {
         <span className="text-[32px] font-semibold">
           Ready to make a reservation?
         </span>
-        <button className="text-white text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-[#111] hover:bg-white">
+        <button className="text-white text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-codGray hover:bg-white">
           Book a table
         </button>
       </section>
