@@ -1,4 +1,4 @@
-import divide from '../../public/assets/patterns/pattern-divide.svg';
+import divide from '/../public/assets/patterns/pattern-divide.svg';
 
 export default function Item({ item }) {
   return (
