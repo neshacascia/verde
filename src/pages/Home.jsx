@@ -48,7 +48,7 @@ export default function Home() {
           eventsPosition={eventsPosition}
           setEventsPosition={setEventsPosition}
         />
-        <button className="text-white bg-[#111] text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7">
+        <button className="text-white bg-[#111] text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-black hover:bg-white">
           Book a table
         </button>
       </section>
@@ -57,7 +57,7 @@ export default function Home() {
         <span className="text-[32px] font-semibold">
           Ready to make a reservation?
         </span>
-        <button className="text-white text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7">
+        <button className="text-white text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-[#111] hover:bg-white">
           Book a table
         </button>
       </section>

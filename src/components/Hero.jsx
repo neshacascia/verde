@@ -11,7 +11,7 @@ export default function Hero() {
         Experience our seasonal menu in beautiful country surroundings. Eat the
         freshest produce from the comfort of our farmhouse.{' '}
       </p>
-      <button className="text-[17px] font-semibold tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-14">
+      <button className="text-[17px] font-semibold tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-14 hover:text-[#111] hover:bg-white">
         Book a table
       </button>
     </section>
