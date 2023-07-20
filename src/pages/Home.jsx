@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import Item from '../components/Item';
 import Highlight from '../components/Highlight';
@@ -48,18 +49,22 @@ export default function Home() {
           eventsPosition={eventsPosition}
           setEventsPosition={setEventsPosition}
         />
-        <button className="text-white bg-codGray text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-codGray hover:bg-white">
-          Book a table
-        </button>
+        <Link to="/booking">
+          <button className="text-white bg-codGray text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-codGray hover:bg-white">
+            Book a table
+          </button>
+        </Link>
       </section>
 
       <section className="text-white bg-readyMobile bg-cover h-[328px] flex flex-col justify-center items-center">
         <span className="text-[32px] font-semibold">
           Ready to make a reservation?
         </span>
-        <button className="text-white text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-codGray hover:bg-white">
-          Book a table
-        </button>
+        <Link to="/booking">
+          <button className="text-white text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7 hover:text-codGray hover:bg-white">
+            Book a table
+          </button>
+        </Link>
       </section>
 
       <Footer />
