@@ -50,6 +50,15 @@ export default function Home() {
           Book a table
         </button>
       </section>
+
+      <section className="text-white bg-readyMobile bg-cover h-[328px] flex flex-col justify-center items-center">
+        <span className="text-[32px] font-semibold">
+          Ready to make a reservation?
+        </span>
+        <button className="text-white text-[17px] font-medium tracking-widest uppercase w-[245px] border-[1px] py-5 px-14 mt-7">
+          Book a table
+        </button>
+      </section>
     </section>
   );
 }
