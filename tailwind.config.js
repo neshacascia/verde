@@ -12,7 +12,7 @@ export default {
         ebonyClay: '#242B37',
       },
       backgroundImage: {
-        heroMobile: "url('../../public/assets/home/mobile/hero.jpg')",
+        heroHomeMobile: "url('../../public/assets/home/mobile/hero.jpg')",
         readyMobile: "url('../../public/assets/home/mobile/ready-bg.jpg')",
       },
     },

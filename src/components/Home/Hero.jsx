@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
-    <section className="text-white bg-heroMobile bg-cover text-center h-[120vh] flex flex-col justify-center items-center px-6">
+    <section className="text-white bg-heroHomeMobile bg-cover text-center h-[120vh] flex flex-col justify-center items-center px-6">
       <span className="text-5xl font-medium tracking-wide mt-[160px]">
         dine
       </span>
