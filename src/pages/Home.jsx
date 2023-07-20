@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Hero from '../components/Hero';
-import Item from '../components/Item';
-import Highlight from '../components/Highlight';
-import Event from '../components/Event';
+import Hero from '../components/Home/Hero';
+import Item from '../components/Home/Item';
+import Highlight from '../components/Home/Highlight';
+import Event from '../components/Home/Event';
 
 import { itemArr } from '../../data';
 import { menuHighlightsArr } from '../../data';
