@@ -14,6 +14,7 @@ export default {
       backgroundImage: {
         heroHomeMobile: "url('../../public/assets/home/mobile/hero.jpg')",
         readyMobile: "url('../../public/assets/home/mobile/ready-bg.jpg')",
+        heroBookingMobile: "url('../../public/assets/booking/mobile/hero.jpg')",
       },
     },
   },
